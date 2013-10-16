@@ -21,4 +21,4 @@ EXPOSE 8080
 
 VOLUME ["/root"]
  
-CMD /usr/bin/java -jar /gitbucket.war
+CMD ["/usr/bin/java", "-jar", "/gitbucket.war"]
